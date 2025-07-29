@@ -14,7 +14,6 @@ class Student extends College
 	}
 }
 
-
 public class StudentDemo {
 
 	public static void main(String[] args) {
