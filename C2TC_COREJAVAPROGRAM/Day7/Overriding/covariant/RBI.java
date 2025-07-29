@@ -1,4 +1,4 @@
-package dayseven.overriding;
+package Overriding.covariant;
 
 public class RBI {
 	public float getRateOfInterest() {

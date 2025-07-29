@@ -1,4 +1,4 @@
-package dayseven.overloading;
+package Overloading;
 
 public class MethodOverloading {
 	public static int addition(int a, int b) {
@@ -20,4 +20,6 @@ public class MethodOverloading {
 	public static String addition(String a, String b) {
 		return a + b;
 	}
+
+
 }

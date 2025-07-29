@@ -1,5 +1,4 @@
-package dayseven.overloading;
-
+package Overloading;
 public class OverloadingDemo {
 	public static void main(String[] args) {
 
@@ -21,4 +20,5 @@ public class OverloadingDemo {
 		System.out.println("Addition of one float and one integer :" + MethodOverloading.addition(10.0f, 20));
 		System.out.println("Addition of two Strings : " + MethodOverloading.addition("Hello ", "World"));
 	}
+
 }

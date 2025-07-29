@@ -1,4 +1,4 @@
-package dayseven.overloading.v1;
+package Overloading;
 
 public class Executor {
 	public static void main(String[] args) {
@@ -10,5 +10,4 @@ public class Executor {
 		System.out.println("Is RACECAR Palindrome? "+Operations.isPalindrome("RACECAR"));
 
 	}
-
 }

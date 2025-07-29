@@ -1,9 +1,11 @@
-package dayseven.overriding;
+package Overriding.covariant;
 
 public class OverridingDemo {
 
 	public static void main(String[] args) {
 		RBI rbi;
+
+//		Dynamic binding assigning child class object to parent class reference variable.
 		rbi = new SBI();
 		System.out.println(rbi.getRateOfInterest());
 
@@ -12,7 +14,6 @@ public class OverridingDemo {
 
 		rbi = new HDFC();
 		System.out.println(rbi.getRateOfInterest());
-		
 
 	}
 

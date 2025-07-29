@@ -1,6 +1,7 @@
-package dayseven.overriding;
+package Overriding.covariant;
 
 public class SBI extends RBI {
+	@Override
 	public float getRateOfInterest() {
 		return 7.0f;
 	}
@@ -8,5 +9,4 @@ public class SBI extends RBI {
 	public SBI getObject() {
 		return this;
 	}
-
 }
